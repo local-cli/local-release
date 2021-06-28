@@ -1,13 +1,17 @@
 {
   "name": "local-release",
-  "version": "0.1.0",
+  "version": "0.1.1-beta.4",
   "main": "index.js",
   "repository": "git@github.com:local-cli/local-release.git",
   "author": "jingchaofang",
   "license": "MIT",
   "files": [
-    "index.js"
+    "index.js",
+    "bin/**/*.js"
   ],
+  "bin": {
+    "local-release": "bin/release.js"
+  },
   "scripts": {
     "release": "node ./index.js --skipBuild"
   },
