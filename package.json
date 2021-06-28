@@ -5,6 +5,9 @@
   "repository": "git@github.com:local-cli/local-release.git",
   "author": "jingchaofang",
   "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "release": "node ./index.js --skipBuild"
   },
