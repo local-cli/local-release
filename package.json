@@ -1,6 +1,6 @@
 {
   "name": "local-release",
-  "version": "0.1.1-beta.5",
+  "version": "0.1.1-beta.6",
   "main": "index.js",
   "repository": "git@github.com:local-cli/local-release.git",
   "author": "jingchaofang",
@@ -13,7 +13,7 @@
     "local-release": "bin/release.js"
   },
   "scripts": {
-    "release": "node bin/release.js --skipBuild"
+    "release": "node index.js --skipBuild"
   },
   "dependencies": {
     "chalk": "^4.1.1",
