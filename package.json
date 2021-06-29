@@ -1,6 +1,6 @@
 {
   "name": "local-release",
-  "version": "0.1.1-beta.6",
+  "version": "0.1.1",
   "main": "index.js",
   "repository": "git@github.com:local-cli/local-release.git",
   "author": "jingchaofang",

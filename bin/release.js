@@ -1,2 +1,5 @@
 #!/usr/bin/env node
-require("../index.js")
+const main = require("../index.js")
+main().catch((err) => {
+  console.error(err);
+});
